@@ -59,7 +59,7 @@ export class BooksComment extends Component {
         const {page, perPage, pageCount, Loading} = this.state;
         let items = this.state.books.slice(page * perPage, (page + 1) * perPage);
         let pages = pageCount;
-        // console.log(items)
+        console.log(pages)
     return (
         <Container className="d-flex justify-content-center my-5" >
             <Card className="col-8 shadow-lg border-0 rounded">
