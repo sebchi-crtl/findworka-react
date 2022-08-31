@@ -155,7 +155,7 @@ export class BooksComment extends Component {
                             previousLabel={'pre'}
                             nextLabel={'next'}
                             breakLabel={'...'}
-                            pageCount={pageCount}
+                            pageCount={5}
                             onPageChange={this.handlePageClick}
                             containerClassName={'pagination'}
                             activeClassName={'active'}
