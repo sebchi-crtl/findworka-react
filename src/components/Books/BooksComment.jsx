@@ -147,7 +147,7 @@ export class BooksComment extends Component {
                                 }
                         </tbody>
                     </Table>
-                    <div className="pagination-txt">Display {this.state.perPage} of {this.state.books.length} relevant
+                    <div className="pagination-txt">Display show {this.state.perPage} of {this.state.books.length} relevant
                       books
                     </div>
                     <div className="float-end">
