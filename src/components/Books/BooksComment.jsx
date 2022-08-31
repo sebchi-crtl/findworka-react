@@ -91,7 +91,8 @@ export class BooksComment extends Component {
                                 })
 
                             } 
-                            {Loading && <tr>
+                            {Loading && <div>
+                                <tr>
                                     <td class="loading">
                                         <div class="bar"></div>
                                     </td>
@@ -107,7 +108,43 @@ export class BooksComment extends Component {
                                     <td class="loading">
                                         <div class="bar"></div>
                                     </td>    
-                                </tr>}
+                                </tr>
+                                <tr>
+                                    <td class="loading">
+                                        <div class="bar"></div>
+                                    </td>
+                                    <td class="loading">
+                                        <div class="bar"></div>
+                                    </td>
+                                    <td class="loading">
+                                        <div class="bar"></div>
+                                    </td>
+                                    <td class="loading">
+                                        <div class="bar"></div>
+                                    </td>
+                                    <td class="loading">
+                                        <div class="bar"></div>
+                                    </td>    
+                                </tr>
+                                <tr>
+                                    <td class="loading">
+                                        <div class="bar"></div>
+                                    </td>
+                                    <td class="loading">
+                                        <div class="bar"></div>
+                                    </td>
+                                    <td class="loading">
+                                        <div class="bar"></div>
+                                    </td>
+                                    <td class="loading">
+                                        <div class="bar"></div>
+                                    </td>
+                                    <td class="loading">
+                                        <div class="bar"></div>
+                                    </td>    
+                                </tr>
+                                </div>
+                                }
                         </tbody>
                     </Table>
                     <div className="pagination-txt">Display {this.state.perPage} of {this.state.books.length} relevant
