@@ -58,8 +58,8 @@ export class BooksComment extends Component {
     render() {
         const {page, perPage, pageCount, Loading} = this.state;
         let items = this.state.books.slice(page * perPage, (page + 1) * perPage);
-        let pages = pageCount;
-        console.log(pages)
+        
+        console.log(pageCount)
     return (
         <Container className="d-flex justify-content-center my-5" >
             <Card className="col-8 shadow-lg border-0 rounded">
@@ -155,7 +155,7 @@ export class BooksComment extends Component {
                             previousLabel={'pre'}
                             nextLabel={'next'}
                             breakLabel={'...'}
-                            pageCount={pages}
+                            pageCount={pageCount}
                             onPageChange={this.handlePageClick}
                             containerClassName={'pagination'}
                             activeClassName={'active'}
