@@ -20,7 +20,7 @@ export default function Comments(){
         const getComments = async () => {
             
             try {
-                const response = await axios.get(`https://findwork-backend.herokuapp.com/comment`);
+                const response = await axios.get(`http://localhost/testing/api/comment`);
                 const event = await response.data;
                 const total = response.data.length;
                 setPage(0);
