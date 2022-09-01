@@ -1,6 +1,6 @@
 # Frontend link
 This project uses react-bootstrap and netlify for hosting
-https://findworka.netlify.app
+https://findwork.netlify.app
 
 # Getting Started with Create React App
 
